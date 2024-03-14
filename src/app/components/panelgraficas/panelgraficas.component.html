@@ -1,0 +1,183 @@
+<div class="panelModulo">
+  <!-- TOP MENU -->
+  <div class="container-fluid menutamaño"></div>
+
+  <!-- MENU TITLE -->
+  <div class="container text-center dashboardTitleContainer">
+
+
+    <!-- Contenedor de la primera gráfica -->
+    <div class="container text-center dashboardTitleContainer">
+      <div class="chart-container">
+        <apx-chart
+          [series]="chartOptions.series!"
+          [chart]="chartOptions.chart!"
+          [xaxis]="chartOptions.xaxis!"
+          [title]="chartOptions.title!"
+        ></apx-chart>
+      </div>
+    </div>
+
+    <div class="container text-center dashboardTitleContainer">
+      <div style="text-align:center">
+        <apx-chart
+          [series]="splineChartOptions.series!"
+          [chart]="splineChartOptions.chart!"
+          [xaxis]="splineChartOptions.xaxis!"
+          [title]="splineChartOptions.title!"
+        ></apx-chart>
+      </div>
+    </div>
+
+    <div class="container text-center dashboardTitleContainer">
+        <!-- Gráfico de Área Polar -->
+        <div style="text-align:center">
+          <apx-chart
+          [series]="polarAreaChartOptions.series!"
+          [chart]="polarAreaChartOptions.chart!"
+          [xaxis]="polarAreaChartOptions.xaxis!"
+          [title]="polarAreaChartOptions.title!"
+        ></apx-chart>
+        </div>
+    </div>
+
+    <div class="container text-center dashboardTitleContainer">
+      <div style="text-align:center">
+        <apx-chart
+          [series]="horizontalBarChartOptions.series!"
+          [chart]="horizontalBarChartOptions.chart!"
+          [xaxis]="horizontalBarChartOptions.xaxis!"
+          [title]="horizontalBarChartOptions.title!"
+        ></apx-chart>
+      </div>
+    </div>
+
+    <div class="container text-center dashboardTitleContainer">
+      <!-- Gráfico de Pastel -->
+      <div style="text-align:center">
+        <apx-chart
+          [series]="pieChartOptiosns?.series!"
+          [chart]="pieChartOptiosns?.chart!"
+          [title]="pieChartOptiosns?.title!"
+        ></apx-chart>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="container ">
+      <span>panel 1</span>
+    </div>
+
+    <div class="container ">
+      <span>panel 2</span>
+    </div>
+
+    <div class="container ">
+      <span>panel 3</span>
+    </div>
+
+    <div class="container ">
+      <span>panel 4</span>
+    </div> -->
+
+
+  </div>
+
+  <!-- DASHBOARD -->
+  <!-- <div class="container text-center dashboardContainer">
+
+    <div class="container dashConInfo">
+
+      <div class="container dashInfo1">
+        <div class="container">
+          <span>modulo 1</span>
+        </div>
+        <div class="container">
+          <span>modulo 2</span>
+        </div>
+      </div>
+      <div class="container dashInfo2">
+        <div class="container">
+          <span>modulo 1</span>
+        </div>
+        <div class="container">
+          <span>modulo 2</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container dashConInfo2">
+      <div class="container dashInfo11">
+        <div class="container">modulo 1</div>
+      </div>
+      <div class="container dashInfo22">
+        <div class="container">modulo 2</div>
+      </div>
+
+    </div>
+
+  </div> -->
+
+  <!-- GRAFICAS -->
+  <!-- <div class="container text-center graficasContainer">
+
+    <div class="container graficasConInfo">
+
+      <div class="container graficasInfo1 ">
+        <span>panel 1</span>
+      </div>
+
+      <div class="container graficasInfo2">
+        <span>panel 2</span>
+      </div>
+
+    </div>
+
+    <div class="container graficasConInfo2">
+      <div class="container">
+        <span>panel 2</span>
+      </div>
+    </div>
+
+  </div> -->
+
+  <!-- TABLA -->
+  <!-- <div class="container text-center tablaContainer">
+
+    <div class="container ">
+      <span>panel 1</span>
+    </div>
+
+    <div class="container ">
+      <span>panel 2</span>
+    </div>
+
+  </div> -->
+
+  <!-- <div class="contianer text-center usuariosGraficas">
+
+
+  </div> -->
+
+</div>
+
+
+<!--
+
+    <ngx-charts-advanced-pie-chart
+      [view]="view"
+      scheme="neons"
+      [results]="single"
+      [gradient]="gradient"
+      (select)="onSelect($event)"
+      (activate)="onActivate($event)"
+      (deactivate)="onDeactivate($event)"
+      >
+    </ngx-charts-advanced-pie-chart>
+
+
+ -->

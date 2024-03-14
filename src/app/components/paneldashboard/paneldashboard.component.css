@@ -1,0 +1,707 @@
+.panelModulo{
+
+  /* background-image: radial-gradient(circle, #1a1a1a, #171717, #131313, #0e0e0e, #080808, #080808, #080808, #080808, #0e0e0e, #131313, #171717, #1a1a1a); */
+
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+
+      /* background-color: #111111;
+      background-image: linear-gradient(
+        32deg,
+        rgba(8, 8, 8, 0.74) 30px,
+        transparent
+      );
+      background-size: 60px 60px;
+      background-position: -5px -5px;
+ */
+
+
+
+
+
+
+
+
+
+
+
+  color: white;
+  width: 100%;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+/* Menu Top */
+.menutamaño{
+  width: 100%;
+  height: 10px;
+}
+
+/* MENU TITLE */
+.dashboardTitleContainer {
+  background-color: rgba(255, 255, 255, 0.13);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* DASHBOARD */
+.dashboardContainer {
+  /* background-color: black; */
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+/* GRAFICAS */
+.graficasContainer{
+  background-color: tomato;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* Tabla */
+.tablaContainer{
+  /* background-color: black; */
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.dashConInfo{
+  background-color: #dc3545;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.dashInfo1 {
+  background-color: slateblue;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.dashInfo2 {
+  background-color:aliceblue;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.dashConInfo2{
+  background-color: #86b7fe;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashInfo11 {
+  background-color:yellowgreen;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.dashInfo22 {
+  background-color:aliceblue;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.graficasConInfo{
+  background-color: #0dcaf0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.graficasConInfo2{
+  background-color: #0d6efd;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.graficasInfo1{
+  background-color: #86b7fe;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.graficasInfo2{
+  background-color: turquoise;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ########################## */
+
+.TItleCon{
+  background-color: rgba(255, 255, 255, 0.13);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 30px;
+}
+
+.graficasConAdvancedpie,.InfoCon, .userCon, .tableCon{
+  background-color: rgba(255, 255, 255, 0.13);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.datosInfo{
+  width: 100%;
+  height: 59px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.titleCon{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.title{
+  color: white;
+}
+
+
+.userInfoCon{
+  /* background-color: #0dcaf0; */
+  width: 393px;
+  height: auto;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.conInfoUser{
+  /* background-color: #86b7fe; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.media {
+  align-items: flex-start;
+  display: flex;
+  text-align: inherit;
+  padding: 15px 10px 15px 10px;
+  /* background-color: brown; */
+}
+
+.titleUser{
+  color: white;
+  font-size: 35px;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tablesInfo{
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.tableUser{
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+
+
+
+::ng-deep ngx-charts-advanced-pie-chart {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* background-color: violet; */
+}
+
+::ng-deep .ngx-charts {
+  float: left;
+  overflow: visible;
+  /* background-color: #86b7fe; */
+
+}
+
+::ng-deep .advanced-pie-legend {
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    /* background-color: #dc3545; */
+}
+
+::ng-deep .advanced-pie-legend .legend-items-container .legend-items {
+  white-space: nowrap;
+  overflow: auto;
+  /* background-color: yellow; */
+}
+
+
+
+
+
+/* ####################### */
+
+@media (max-width: 575.98px) {
+  .InfoCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .level.is-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .itemUser{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .graficasConAdvancedpie{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 10px;
+    display: none;
+  }
+
+  .dashboardTitleContainer {
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .TItleCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 30px;
+  }
+
+  .titleCon{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding-bottom: 10px;
+
+  }
+
+  .conInfoUser{
+    /* background-color: #86b7fe; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center
+
+  }
+
+  .titleUser{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  ::ng-deep ngx-charts-advanced-pie-chart {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: yellow;
+    display: none;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .InfoCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .level.is-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .itemUser{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .graficasConAdvancedpie{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 10px;
+    display: none;
+  }
+
+  .dashboardTitleContainer {
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .TItleCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 30px;
+  }
+
+  .titleCon{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding-bottom: 10px;
+
+  }
+
+  .conInfoUser{
+    /* background-color: #86b7fe; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center
+
+  }
+
+  .titleUser{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  ::ng-deep ngx-charts-advanced-pie-chart {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: yellow;
+    display: none;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .InfoCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .level.is-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .itemUser{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .graficasConAdvancedpie{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 10px;
+    display: none;
+  }
+
+  .dashboardTitleContainer {
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .TItleCon{
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 30px;
+  }
+
+  .titleCon{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding-bottom: 10px;
+
+  }
+
+  .conInfoUser{
+    /* background-color: #86b7fe; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center
+
+  }
+
+  .titleUser{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  ::ng-deep ngx-charts-advanced-pie-chart {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: yellow;
+    display: none;
+  }
+
+
+
+}
+
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
