@@ -8,5 +8,5 @@
 // environment.prod.ts
 export const environment = {
   production: true,
-  apiUrl: 'https://ca25-187-190-198-147.ngrok-free.app/',
+  apiUrl: 'https://ca25-187-190-198-147.ngrok-free.app',
 };
